@@ -4,6 +4,7 @@ The 19th Linguistic Annotation Workshop
 This is the `main` branch; it contains sources for building the website.
 The [website](https://sigann.github.io/LAW-XIXI-2025) itself lives on the `gh-pages` branch.
 
+
 ### create gh-pages branch:
 
 git symbolic-ref HEAD refs/heads/gh-pages
@@ -26,6 +27,11 @@ To deploy changes:
     $ rmdir deploy
     $ git commit -a -m "deploy changes"
     $ git push
+
+
+How to test the website locally:
+
+https://kbroman.org/simple_site/pages/local_test.html
 
 
 NB: Only edit the files under `pages/`, since these are the ones used by the build script. Any HTML files in the repository root will be overwritten on deployment.

@@ -25,7 +25,8 @@ table, th, td, img {
 /*------------------------------ HEADER ------------------------------*/
 
 #header {
-    background: linear-gradient(#0096FF, #ADD8E6);
+    /* background: linear-gradient(#0096FF, #ADD8E6); */
+    background: linear-gradient(#780404, #d75555);
     border-bottom: 2px solid #ddd;
     color: #fff;
     padding-left: 20px;

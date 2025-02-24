@@ -2,7 +2,7 @@
 The 19th Linguistic Annotation Workshop
 
 This is the `main` branch; it contains sources for building the website.
-The [website](https://sigann.github.io/LAW-XIXI-2025) itself lives on the `gh-pages` branch.
+The [website](https://sigann.github.io/LAW-XIX-2025) itself lives on the `gh-pages` branch.
 
 
 ### create gh-pages branch:

@@ -1,4 +1,4 @@
-# LAW-XIXI-2025
+# LAW-XIX-2025
 The 19th Linguistic Annotation Workshop
 
 This is the `main` branch; it contains sources for building the website.

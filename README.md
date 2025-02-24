@@ -22,7 +22,10 @@ To deploy changes:
     $ git checkout main
     # ...make, commit, and push changes...
     $ python3 build.py deploy
+    # ...make, commit, and push changes...
     $ git checkout gh-pages
+    $ git checkout main -- deploy/* 
+    # (logan added the command to move deploy/* files from main to gh-pages)
     $ mv deploy/* .
     $ rmdir deploy
     $ git commit -a -m "deploy changes"

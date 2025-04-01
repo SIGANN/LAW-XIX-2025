@@ -1,8 +1,8 @@
-# LAW-XIXI-2025
+# LAW-XIX-2025
 The 19th Linguistic Annotation Workshop
 
 This is the `main` branch; it contains sources for building the website.
-The [website](https://sigann.github.io/LAW-XIXI-2025) itself lives on the `gh-pages` branch.
+The [website](https://sigann.github.io/LAW-XIX-2025) itself lives on the `gh-pages` branch.
 
 
 ### create gh-pages branch:
@@ -22,7 +22,10 @@ To deploy changes:
     $ git checkout main
     # ...make, commit, and push changes...
     $ python3 build.py deploy
+    # ...make, commit, and push changes...
     $ git checkout gh-pages
+    $ git checkout main -- deploy/* 
+    # (logan added the command to move deploy/* files from main to gh-pages)
     $ mv deploy/* .
     $ rmdir deploy
     $ git commit -a -m "deploy changes"

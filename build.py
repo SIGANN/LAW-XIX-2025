@@ -53,7 +53,7 @@ import shutil
 # these as needed.
 
 PAGES = ["cfp", "index", "committee", "invited", "program"]
-IMAGES = [os.path.join("images", "logo", "LAW19_Logo.png"), os.path.join("images", "ELRA_logo.png"), os.path.join("images", "jessy.jpg"), os.path.join("images", "rotem.jpg")]
+IMAGES = [os.path.join("images", "logo", "LAW19_Logo.png"), os.path.join("images", "ELRA_logo.png"), os.path.join("images", "jessy2.png"), os.path.join("images", "rotem2.jpg")]
 STYLESHEETS = [os.path.join("css", "law2025.css")]
 
 

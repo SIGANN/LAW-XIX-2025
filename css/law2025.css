@@ -163,6 +163,9 @@ a.paper {
 a:hover { color: #39646d; }
 a:visited { color: #39646d; }
 
+b.alert { color: rgb(101,29,35); }
+
+
 table.dates {
     margin-left: 20px;
     border-collapse: collapse;
